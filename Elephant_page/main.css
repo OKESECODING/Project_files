@@ -1,0 +1,41 @@
+/* for nav bar   */
+.navbar-brand{
+    color:#fff !important;
+}
+a{
+    color: #fff !important;
+}
+
+li.nav-item {
+    display: flex;
+    justify-content: space-around;
+}
+li.nav-item {
+    margin:  calc(0.375rem - 7px) !important;
+}
+form.d-flex.my-2.my-lg-0 {
+    display: flex;
+    justify-content: center;
+}
+.btn-outline-success{
+    border-color: red !important;
+}
+li.nav-item.dropdown {
+    display: block;
+}
+a#dropdownId {
+    display: flex;
+    justify-content: center;
+}
+a.dropdown-item {
+    display: flex;
+    justify-content: center;
+}
+.dropdown-toggle::after {
+    margin-top: 10px !important;   
+}
+
+.dropdown-menu.show{
+    border: none;
+}
+/* end of navbar css  */
