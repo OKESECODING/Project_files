@@ -39,3 +39,65 @@ a.dropdown-item {
     border: none;
 }
 /* end of navbar css  */
+/* for the main benner  */
+.main-banner{
+    height: 75vh !important;
+    background-color: rgba(79, 29, 86, 0.339);
+        /* background-color: aqua; */
+        background-image: linear-gradient(0deg, #4f1d56a7, #3e1144);
+    color: #fff;
+}
+.banner-con,.banner-sm-con{
+    padding-left: calc(0.2rem + 5.5vw)!important;
+}
+
+.main-banner>.row{
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+.main-btn {
+    margin-top: 2em;
+    width: 16em;
+    background-image: linear-gradient(45deg, #d30bedf4, #71077f);
+}
+.img-fluid{
+    border-radius: 19px !important;
+}
+.img-col{
+    display: flex;
+    justify-content: center;
+}
+.banner-main-text{
+    font-size: calc(1.5rem + 0.5vw )!important;
+}
+.col-md-4.top-50.ps-3 {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+/* for small banner */
+.banner-sm{
+    height: 75vh !important;
+    background-color: rgba(79, 29, 86, 0.339);
+        
+        background-image: 
+
+        linear-gradient(90deg, #4f1d56f3, #3e114461,transparent),
+        url('pics/home4.jpg');
+    color: #fff;
+    align-items: center;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+   
+
+}
+
+
+
+
+
