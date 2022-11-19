@@ -68,7 +68,7 @@ a.dropdown-item {
     align-content: center;
 }
 
-.main-btn {
+.main-btn,.community-main-btn {
     margin-top: 2em;
     width: calc(15rem - 3em);
     background-image: linear-gradient(45deg, #d30bedf4, #71077f);
@@ -84,7 +84,8 @@ a.dropdown-item {
 }
 
 .banner-main-text,
-.support-main-text {
+.support-main-text,
+.community-main-text {
     font-size: calc(1.5rem + 0.5vw) !important;
 
 }
@@ -118,7 +119,7 @@ a.dropdown-item {
 
 /* for the supportsection  */
 
-/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, and below) */
 @media (max-width: 425px) {
 
     .support-main-con {
@@ -126,6 +127,9 @@ a.dropdown-item {
         margin: 2rem;
         margin-top: 2em !important;
 
+    }
+    .mission-text-box{
+        margin-top: 2em !important;
     }
 
 }
@@ -148,3 +152,26 @@ a.dropdown-item {
 
     }
 }
+
+.community-main-btn{
+    background-image: linear-gradient(50deg, #3a0941f4, #5b0666) !important;
+}
+.partner h2{
+    display: flex;
+    justify-content: center;
+}
+.partner li{
+    list-style: none;
+}
+.partner{
+    background-color: #efe8df;
+}
+.mission{
+    height: 50vh;
+}
+.mission-pic{
+ 
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
