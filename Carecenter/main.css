@@ -68,7 +68,8 @@ a.dropdown-item {
     align-content: center;
 }
 
-.main-btn,.community-main-btn {
+.main-btn,
+.community-main-btn {
     margin-top: 2em;
     width: calc(15rem - 3em);
     background-image: linear-gradient(45deg, #d30bedf4, #71077f);
@@ -128,7 +129,11 @@ a.dropdown-item {
         margin-top: 2em !important;
 
     }
-    .mission-text-box{
+    .mission {
+        height: 86vh !important;
+    }
+
+    .mission-text-box {
         margin-top: 2em !important;
     }
 
@@ -147,31 +152,42 @@ a.dropdown-item {
         justify-content: center;
     }
 
+
     .support-con {
         margin-top: 5em !important;
 
     }
 }
 
-.community-main-btn{
+.community-main-btn {
     background-image: linear-gradient(50deg, #3a0941f4, #5b0666) !important;
 }
-.partner h2{
+
+.partner h2 {
     display: flex;
     justify-content: center;
 }
-.partner li{
+
+.partner li {
     list-style: none;
 }
-.partner{
+
+.partner {
     background-color: #efe8df;
 }
-.mission{
+
+.mission {
     height: 50vh;
 }
-.mission-pic{
- 
+
+.mission-pic {
+
     padding: 0px !important;
     margin: 0px !important;
 }
-
+.request-section{
+    color: #fff;
+    height: 40vh;
+    background-color: rgba(79, 29, 86, 0.339);
+    background-image: linear-gradient(90deg, #4f1d56f3, #3e114461, transparent), url(pics/home4.jpg);
+}
